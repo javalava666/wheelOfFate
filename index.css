@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 750px;
+  width: 520px}
+#contain {
+  height: 750px;
+  width: 520px}
+button {
+  background: purple;
+  color: white;
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  left: 360px;
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin-top: 10px;
+  font-family: Oswald, Futura, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase}
+h2 {
+  text-transform: uppercase}
+input {
+  background: purple;
+  color:white;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 10px;
+  margin: 10px;
+  font-family: Oswald, Futura, sans-serif;
+  font-size: 16px;
+  font-weight: bold}
+#spinButton {
+  top: 510px}
+#removeName {
+  top: 565px}
+#refresh {
+  top: 620px}
+#clean {
+  top: 675px}
+#canvas {
+  cursor: pointer}
+#page {
+  background: lightgrey;
+  width: 300px;
+  position: absolute;
+  top: 540px;
+  left: 10px;
+  border-radius: 30px;
+  border: 5px solid purple;
+  text-align: center;
+  font-family: Oswald, Futura, sans-serif;
+  font-size: 16px;
+  font-weight: bold}
+#add {
+    background: purple;
+    color: white}
+button:hover, input:hover, #add:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer}
